@@ -1,6 +1,6 @@
 import time, odrive
 from odrive.utils import dump_errors
-
+#Harrison Chung
 #ASSUMES YOU HAVE RUN CALIBRATION FILE PREVIOUSLY 
 
 print("Connecting...")
@@ -38,3 +38,4 @@ time.sleep(1)
 axis.requested_state = 1  # IDLE
 dump_errors(odrv0)
 print("Done.")
+
